@@ -2,7 +2,6 @@
 
 **6+ years engineering robust, scalable backend systems, APIs, and automation tools that streamline workflows and integrate seamlessly with business processes.**
 
-[![Email](https://img.shields.io/badge/Gmail-roman.zidinov@gmail.com-D14836?logo=gmail)](mailto:roman.zidinov@gmail.com)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Contact-25F35A?logo=fiverr)](https://www.fiverr.com/aullum)
 
 ---
