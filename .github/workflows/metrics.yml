@@ -1,0 +1,33 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Run daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Base sections (main profile info)
+          base: header, repositories, activity
+          config_timezone: Europe/Kyiv
+
+          # Include private contributions
+          repositories_affiliations: owner, collaborator
+          commits_authoring: Aullum, roman.zidinov@gmail.com
+
+          # Most used languages (highlight key skills)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss
+          plugin_languages_limit: 5
+          plugin_languages_sections: most-used
+
+          # Disable unused/weak modules
+          plugin_traffic: no
+          plugin_lines: no
