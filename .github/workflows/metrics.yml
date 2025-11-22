@@ -17,11 +17,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # Основные секции профиля
-          base: header, repositories, activity
+          base: header, activity
           config_timezone: Europe/Kyiv
 
-          # Учитывать приватные репозитории и все твои коммиты
           repositories_affiliations: owner, collaborator
           commits_authoring: >
             Aullum
@@ -29,15 +27,12 @@ jobs:
             Roman <roman.zidinov@gmail.com>
             Roman Zidinov <roman.zidinov@gmail.com>
 
-          # Календарь активности (ключевая метрика)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Языковой профиль (включая приватные репо)
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
 
-          # Для чистоты
           plugin_traffic: no
           plugin_lines: no
