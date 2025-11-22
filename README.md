@@ -154,3 +154,13 @@ Key contributions:
 
 
 - Open to **remote backend roles (full-time, part-time or contract)**
+
+
+---
+
+
+## GitHub Activity
+
+<picture>
+  <img src="./metrics.svg" alt="GitHub Metrics">
+</picture>
