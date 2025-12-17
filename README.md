@@ -14,7 +14,6 @@
 - Act as a tech owner for the internal backend platform, driving technical decisions and roadmap
 - Design a separate async ETL service using **Hexagonal (ports & adapters) architecture**
 - Currently rolling out an observability stack (Prometheus + postgres-exporter + Grafana) for the main backend
-- Open to **remote Python backend roles** (full-time, part-time or contract)
 
 ---
 
@@ -182,8 +181,7 @@ Repo: https://github.com/Aullum/telegram-toolbox-bot
 
 - Email: **roman.zidinov.dev@gmail.com**  
 - LinkedIn: **https://www.linkedin.com/in/roman-zidinov/**  
-- Location: **Kyiv, Ukraine**  
-- Open to: **remote backend roles (full-time, part-time or contract)**  
+- Location: **Kyiv, Ukraine**
 
 ---
 
